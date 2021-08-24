@@ -1,0 +1,70 @@
+body{
+    background:#360154;
+}
+
+.container{
+    margin:auto;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.button{
+    width: 171px;
+    height: 65px;
+    bottom :136px;
+    margin-top: 80px;
+    
+    align-self: center;
+    background: #2c0055;
+    display: fixed;
+    box-shadow: 0px 0px 16px #c80de0;
+    z-index: 3;
+    border-radius: 2px;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154,#d442d5)30;
+}
+span{
+    text-align : center ;
+    font-family : "sacramento" , cursive;
+    
+    font-size : 38px;
+    line-height : 70px;
+    margin : 0 auto;
+    transition : all 0.3s ease-in-out;
+    background : -webkit-linear-gradient(#ffdc2a,#fb2182);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
+    }
+
+    .sun{
+        position: relative;
+        width: 64px;
+        height: 64px;
+        margin-left: 50px;
+        bottom: 65px;
+        
+        background: linear-gradient(180deg,#ffdc2a 0% ,  #fb2182 41.54%);
+        box-shadow: 0px 0px 36px #ffdc2a;
+        z-index: -2;
+        
+        border-radius: 65px;
+        transition: all 1s ease-in-out;
+    }  
+    a:hover .sun{
+        
+        bottom: 100px;
+        transition:all 1s ease-in-out;
+        box-shadow : 0px 0px 10px #ffdc2a;
+        
+        opacity: 1;
+    
+}   
+a:hover .button{
+    box-shadow: 0px 0px 30px #c80de0;
+
+
+}
